@@ -92,7 +92,7 @@ const BlogPost = ({ data }) => {
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         date={post.frontmatter.date}
-        featuredImage={post.frontmatter.featuredimage.childImageSharp.fluid}
+        featuredImage={image}
         featuredpost={post.frontmatter.featuredpost}
         helmet={
           <Helmet titleTemplate="%s | Blog">
